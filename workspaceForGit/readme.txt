@@ -8,6 +8,8 @@ This is a git respority test!
 	git status
 		若文件被修改，用git diff
 4、提交日志
-	从最近到最远的提交日志
-	
-
+	git log								//从最近到最远的提交日志
+	git log --pretty=oneline			//如果嫌输出信息太多，看得眼花缭乱的，可以试试加上--pretty=oneline参数
+5、回退到上一个版本
+	git reset --hard HEAD^				//上一个版本就是HEAD^，上上一个版本就是HEAD^^，
+										//当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
