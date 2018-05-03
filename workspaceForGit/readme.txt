@@ -13,3 +13,5 @@ This is a git respority test!
 5、回退到上一个版本
 	git reset --hard HEAD^				//上一个版本就是HEAD^，上上一个版本就是HEAD^^，
 										//当然往上100个版本写100个^比较容易数不过来，所以写成HEAD~100。
+6、查看命令记录
+	git reflog							//可以查看对应版本ID
