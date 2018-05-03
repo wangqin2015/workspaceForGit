@@ -7,4 +7,7 @@ This is a git respority test!
 3、随时查看工作区状态：
 	git status
 		若文件被修改，用git diff
+4、提交日志
+	从最近到最远的提交日志
+	
 
