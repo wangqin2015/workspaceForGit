@@ -16,4 +16,6 @@ This is a git respority test!
 6、查看命令记录
 	git reflog							//可以查看对应版本ID
 7、根据ID回到任意版本
-	git reset --hard <ID>				
+	git reset --hard <ID>		
+8、查看当前版本内容
+	cat <file>
