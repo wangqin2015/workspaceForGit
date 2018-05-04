@@ -63,7 +63,8 @@ This is a git respority test!
 					git commit -m "注释"
 	切换回master： 	git checkout master
 	合并分支并创建新的commit：		git merge --no-ff -m "merge with no-ff" workspaceFromWangqin 	//--no-ff表示禁用Fast forward
-	
+7、主分支发布版本，团队合作分支进行工作
+	git merge --no-ff -m "merge with no-ff" workspaceFromWangqin 	//--no-ff表示禁用Fast forward
 
 
 
