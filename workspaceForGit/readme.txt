@@ -38,6 +38,12 @@ This is a git respority test!
 	要关联一个远程库，使用命令git remote add origin git@github.com:wangqin2015/workspaceForGit.git
 	关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+3、从远程库克隆
+	git clone git@github:wangqin2015/workspaceForGit.git
+或	git clone https://github.com/wangqin2015/workspaceForGit.git
+
+
+
 	
 	
 	
