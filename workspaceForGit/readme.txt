@@ -1,5 +1,6 @@
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
 This is a git respority test!
+一、基础
 1、初始化一个Git repository：
 	git init;
 2、添加文件到git仓库：
@@ -30,4 +31,5 @@ This is a git respority test!
 	工作区和版本库删除：git rm file
 	删错了：git checout --file 			//用版本库的版本替换工作区的版本
 	
-	
+二、远程仓库
+1、git与github
