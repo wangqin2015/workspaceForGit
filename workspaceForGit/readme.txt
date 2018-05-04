@@ -41,6 +41,17 @@ This is a git respority test!
 3、从远程库克隆
 	git clone git@github:wangqin2015/workspaceForGit.git
 或	git clone https://github.com/wangqin2015/workspaceForGit.git
+三、分支管理
+1、创建分支
+	git checkout -b dev					//创建并切换分支
+=	git branch dev
+	git checkout dev
+2、查看当前分支
+	git branch
+3、
+	
+
+
 
 
 
