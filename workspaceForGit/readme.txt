@@ -74,7 +74,20 @@ This is a git respority test!
 	当你接到一个修复一个代号101的bug的任务时，很自然地，你想创建一个分支issue-101来修复它，但是，等等，当前正在dev上进行的工作还没有提交：
 	并不是你不想提交，而是工作只进行到一半，还没法提交，预计完成还需1天时间。但是，必须在两个小时内修复该bug，怎么办？
 	git stash 							//把当前工作现场“储藏”起来，等以后恢复现场后继续工作
-
+	
+	git checkout master
+	git checkout -b BUG-20180504
+	git add file
+	git commit -m "注释"
+	git checkout master
+	git merge --no-ff -m "merged BUG-20180504"
+	
+	git checkout workspaceFromWangqin
+	git status
+	git stash list
+	git stash apply(恢复后stash内容不删除)
+	git stash pop（恢复的同时把stash内容删除）
+	
 
 	
 	
