@@ -43,12 +43,18 @@ This is a git respority test!
 或	git clone https://github.com/wangqin2015/workspaceForGit.git
 三、分支管理
 1、创建分支
-	git checkout -b dev					//创建并切换分支
-=	git branch dev
-	git checkout dev
+	git checkout -b <name>					//创建并切换分支
+=	git branch <name>						//创建分支
+	git checkout <name>						//切换分支
 2、查看当前分支
 	git branch
-3、
+3、切换分支
+	git checkout master
+4、合并分支
+	git merge <name>						//合并某分支到当前分支（主分支）
+5、删除分支
+	git branch -d <name>
+
 	
 
 
