@@ -1,3 +1,4 @@
+参考
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
 This is a git respority test!
 一、基础
@@ -34,7 +35,7 @@ This is a git respority test!
 二、远程仓库
 1、git与github
 2、添加远程库
-	要关联一个远程库，使用命令git remote add origin https://github.com/wangqin2015/workspaceForGit.git
+	要关联一个远程库，使用命令git remote add origin git@github.com:wangqin2015/workspaceForGit.git
 	关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 	此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 	
