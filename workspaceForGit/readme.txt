@@ -54,7 +54,15 @@ This is a git respority test!
 	git merge <name>						//合并某分支到当前分支（主分支）
 5、删除分支
 	git branch -d <name>
-
+6、分支管理策略
+	通常，合并分支时，如果可能，Git会用Fast forward模式，但这种模式下，删除分支后，会丢掉分支信息。
+	如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+	下面我们实战一下--no-ff方式的git merge：
+	创建并且换分支：git checkout -b workspaceFromWangqin
+	修改并提交文件：git add file
+					git commit -m "注释"
+	切换回master： 	git checkout master
+	合并分支并创建新的commit：		git merge --no-ff -m "merge with no-ff" workspaceFromWangqin 	//--no-ff表示禁用Fast forward
 	
 
 
